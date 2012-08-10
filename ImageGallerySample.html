@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="Styles/Site.css" />
+    <link type="text/css" rel="stylesheet" href="Controls/ImageGallery/Styles/ADNWImageGallery.css" />
+    <link type="text/css" rel="stylesheet" href="Controls/Pagination/Styles/pagination.css" />
+    <script src="Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/jquery.tmpl.min.js" type="text/javascript"></script>
+    <script src="Controls/Pagination/Scripts/jquery.pagination.js" type="text/javascript"></script>
+    <script src="Controls/ImageGallery/Scripts/ADNWImageGalleryPlugIn.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $.support.cors = true;
+        $(window).ready(
+            function () {
+                $('#ImageLibrary').ImageLibrary(
+                {
+                    Id: 'f4dd85cf-ce1e-e2d1-3171-650938abd2b7',
+                    ImageViewerTemplate: 'Controls/ImageGallery/Templates/ADNWImageGallery.htm'
+                });
+
+            }
+        )
+    </script>
+</head>
+<body>
+<div id="ImageLibrary"></div>
+</body>
+</html>

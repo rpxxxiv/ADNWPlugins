@@ -1,0 +1,123 @@
+﻿body
+{
+
+}
+.btnImageAlbumHeader
+{
+            
+    width:150px;
+    background-image:url('../../Styles/Layout/FenixImageViewerButton.png');
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:100%;
+    color:Goldenrod;
+    font-size:150%;
+    text-align:center;
+}
+.btnImageAlbum
+{
+            
+    width:150px;
+    margin-top:10%;
+    margin-left:25%;
+    /*background-image:url('../../Styles/Layout/FenixImageViewerButton.png');*/
+    border: 3px solid goldenrod;
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:100%;
+    color:Goldenrod;
+    font-size:150%;
+    text-align:center;
+}
+        
+.btnImageAlbum>span
+{
+    padding:5px;   
+    vertical-align:middle;
+}
+#ivAlbumsDisplay
+{
+    position:fixed;
+    top:0;
+    left:0;
+    margin-right:auto;
+    height:20%;
+}
+        
+#ImageList
+{
+    list-style-type:none;
+    position:fixed;
+    top:22%;
+    margin-top:0%;
+    margin-left:0%;
+    margin-right:auto;
+    max-width:170px;
+    max-height:400px;
+    clear:both;
+    overflow:hidden;
+            
+}
+#ImageListHidden
+{
+    display:none;
+}
+.imageHolder
+{
+    height:45px;
+    width:45px;   
+    margin:2.5px;
+    float:left;
+    position:relative;
+            
+    z-index:1;
+}
+.imageHolder :hover
+{
+    height:60px;
+    width:60px;
+    margin:-5px;            
+    z-index:100;
+}
+.Display
+{
+    position:fixed;
+    top:0;     
+    left:20%;  
+    height:100%;
+    padding:0;   
+}
+.image
+{
+    vertical-align:middle;
+    height:100%;
+}
+.caption
+{
+    position:absolute;
+    right:0%;
+    top:50%;
+    border:5px solid white;
+    max-height:300px;   
+    color:goldenrod;
+    background-color:Black;
+}
+.captionBackground
+{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    background-color:Black;  
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity:0.9;
+    z-index:-1;   
+            
+}
+        
+.CurrentAlbum
+{
+    margin-left:15%;
+    width:180px;
+}

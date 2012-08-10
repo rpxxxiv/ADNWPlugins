@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="Styles/Site.css" />
+    <link type="text/css" rel="stylesheet" href="Controls/AudioPlayer/Styles/ADNWAudioPlayer.css" />
+    <script src="Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/jquery.tmpl.min.js" type="text/javascript"></script>
+    <script src="Scripts/ADNWProxies/ADNWAudioPlayerProxy.js" type="text/javascript"></script>
+    <script src="Controls/AudioPlayer/Scripts/ADNWAudioPlayerPlugin.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(window).ready(
+            function () {
+                $('#ADNWAudioPlayer').AudioPlayer(
+                {
+                    songs: $AudioLinks,
+                    AudioPlayerTemplate: 'Controls/AudioPlayer/Templates/ADNWAudioPlayer.htm'
+                });
+            });
+    </script>
+</head>
+<body>
+<div id="ADNWAudioPlayer"></div>
+</body>
+</html>

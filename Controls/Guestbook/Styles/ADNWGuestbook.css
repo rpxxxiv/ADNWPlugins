@@ -1,0 +1,111 @@
+﻿html, body 
+{
+    margin:0;
+    padding:0;
+    height:97%;
+    width:90%;    
+}
+
+#gbLayoutRoot
+{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-image: url('../Images/GuestbookBackground.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin-top:1%;
+    opacity:0.9;
+    filter:alpha(opacity=90);
+}
+
+#gbLeft
+{
+    height:50%;
+    width:45%;
+    margin:0;
+    padding:0;
+/*    border:2px solid black;*/
+    float:left;
+    margin-left:3%;
+    margin-top:2%;
+    margin-bottom:2%;
+    font-size:125%;
+}
+
+#gbRight
+{
+    height:93%;
+    width:45%;
+    margin:0;
+    padding:0;
+/*    border:2px solid black;*/   
+    float:right;
+    margin-right:3%;
+    margin-top:2%;
+    margin-bottom:2%;
+    font-size:100%;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+form#Sign
+{
+    margin-bottom:20px;
+}
+
+form#Sign fieldset
+{
+    border:0px solid black;
+}
+
+form#Sign legend
+{
+    font-size:125%;
+    color:goldenrod;
+}
+
+form#Sign ol
+{
+    list-style-type:none;   
+}
+form#Sign li
+{
+    margin:0;
+    padding:0;
+    text-align:left;   
+    padding-bottom:10px;
+    
+}
+
+form#Sign input
+{
+    background-color:#481818;
+    color:goldenrod;
+    width:75%;   
+}
+
+#Sign input[type="checkbox"]
+{
+    color:goldenrod;
+    width:5%;
+}
+
+form#Sign textarea
+{
+    background-color:#481818;
+    color:goldenrod;
+    width:75%;
+}
+
+form#Sign button
+{
+    background-color:#481818;
+    color:goldenrod;
+}
+
+a
+{
+    font-size:100%;
+    text-decoration:underline;
+}
